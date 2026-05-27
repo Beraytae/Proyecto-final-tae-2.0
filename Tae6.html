@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TAE6 - Galería</title>
+
+<style>
+    body{
+        background:#111;
+        color:white;
+        font-family:Arial, sans-serif;
+        margin:0;
+        padding:40px;
+        text-align:center;
+    }
+
+    h1{
+        margin-bottom:40px;
+    }
+
+    .gallery{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+        gap:20px;
+    }
+
+    .gallery img{
+        width:100%;
+        height:300px;
+        object-fit:cover;
+        border-radius:10px;
+        transition:0.3s;
+    }
+
+    .gallery img:hover{
+        transform:scale(1.03);
+    }
+</style>
+</head>
+<body>
+<a href="ZUBLIME.html" class="volver">
+← Volver
+</a>
+<h1>Galería TAE6</h1>
+
+<div class="gallery">
+    <img src="foto1tae6.png" alt="">
+    <img src="foto2tae6.png" alt="">
+    <img src="foto3tae6.png" alt="">
+    <img src="foto4tae6.jpg" alt="">
+</div>
+
+</body>
+</html>
